@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TACTIGRID - Opening</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">TACTIGRID</h1>
+    <p class="subtitle">Be the strategist of your passion</p>
+
+    <div class="map-section">
+      <img src="2.png" alt="Circuit Map" class="map-image" />
+
+      <!-- CTA Button -->
+      <button class="cta-button" onclick="goToDashboard()">Simula una nuova prova</button>
+    </div>
+  </div>
+
+  <!-- Tooltip -->
+  <div id="tooltip" class="tooltip hidden"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
